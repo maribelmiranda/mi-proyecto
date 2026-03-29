@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+header {
+	background-color: #f5f5f0;  
+	color: blue;
+	font-family: "arial";
+	text-align: center;
+	height: 7%;
+}
+body{
+height: 90%;
+}
+
+aside {
+	background-color:#8080ff; 
+	float:left;
+	border-radius:2px;
+	font-family: "helvetica";
+	height: 100%;
+	width: 220px; 
+	position: relative;
+}
+aside footer{
+	background-color: #8080ff;
+	border:1px solid #8080ff; 
+	font-family: "helvetica";
+	color: white; 
+	text-align: left;
+	position:absolute;
+    bottom:15px; 
+    left:1px
+   }
+
+.titulonav{   
+   border-width: 1px;
+   border-style: solid;
+   border-color: #000000;
+   font-size: 14pt;
+   font-weight: bold;
+   background-color: #000099;
+   color: #ffffff;
+   padding: 4px;
+}
+#findbox {
+		background: #eee;
+		border-radius:.125em;
+		border:2px solid #1978cf;
+		box-shadow: 0 0 8px #999;	
+		margin-bottom: 10px;
+		padding: 2px 0;
+		width: 220px;
+		height: 26px;
+	}
+.search-tooltip {
+		width: 220px;
+		height: 200px;
+	}
+.leaflet-control-search .search-cancel {
+		position: static;
+		float: left;
+		margin-left: -22px;
+	}
+
+.leaflet-control-search .search-input {
+	display:block;
+	float:left;
+	background: #fff;
+	border:1px solid #666;
+	border-radius:2px;
+	height:18px;
+	padding:0 18px 0 2px;
+	margin:3px 0 3px 3px;
+	width: 165px;
+}
+
